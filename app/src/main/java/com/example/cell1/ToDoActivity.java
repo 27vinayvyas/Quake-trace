@@ -149,6 +149,7 @@ public class ToDoActivity extends Activity implements LoaderManager.LoaderCallba
         bbbb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                bbbb.setText("Details Entered");
 
                 if (namename=="" || phonephone=="")
                 {
